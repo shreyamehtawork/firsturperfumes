@@ -1,0 +1,61 @@
+.section7 {
+  font-family: "BonVoyage", serif;
+}
+.email-input-wrapper {
+  border-bottom: 1px solid #aaa;
+  width: 100%;
+  max-width: 500px;
+  position: relative;
+}
+
+.email-input {
+  flex: 1;
+  font-size: 20px;
+  padding: 5px 12px;
+  background-color: transparent;
+}
+
+.email-arrow-btn {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.arrow {
+  font-size: 20px;
+  color: #555;
+  transition: color 0.3s;
+}
+
+.email-arrow-btn:hover .arrow {
+  color: #000;
+}
+
+.email-underline {
+  border-top: 1px solid transparent;
+  margin-top: -1px;
+}
+
+.section7image {
+  width: 30vw;
+  height: 35vh;
+  padding: 2px;
+  object-fit: cover;
+  border-radius: 200px 200px 200px 200px;
+}
+
+@media (max-width: 800px) {
+  .section7heading {
+    text-align: center;
+    font-size: 30px;
+  }
+  .section7image {
+    width: 90vw;
+    height: 15vh;
+    margin-right: 10px;
+    object-fit: cover;
+    border-radius: 100px;
+  }
+}

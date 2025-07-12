@@ -1,0 +1,54 @@
+.footer-heading {
+  font-family: "BonVoyage", sans-serif;
+  font-size: 2.8rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.footer-title {
+  font-family: "BonVoyage", sans-serif;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer-line {
+  width: 40px;
+  border: 1px solid white;
+  margin: 0.3rem 0 1rem 0;
+}
+
+.footer-section p {
+  font-size: 0.95rem;
+  margin-bottom: 0.4rem;
+}
+
+.small-text {
+  font-size: 0.85rem;
+  text-align: center;
+}
+
+/* ✅ Combined media query */
+@media (max-width: 800px) {
+  .footer-heading {
+    font-size: 2rem;
+  }
+
+  .footer-title {
+    font-size: 1.1rem;
+  }
+
+  .footer-section p {
+    font-size: 0.85rem;
+  }
+
+  .small-text {
+    flex-direction: column;
+    gap: 0.3rem;
+    text-align: center;
+  }
+
+  .footer-line {
+    margin: 0.3rem auto 1rem auto;
+    width: 30px;
+  }
+}

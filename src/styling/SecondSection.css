@@ -1,0 +1,127 @@
+.fragrance-container {
+  font-family: "Georgia", serif;
+  border: none;
+  border-top: 2px solid rgba(215, 213, 213, 0.729);
+  border-bottom: 2px solid rgba(215, 213, 213, 0.729);
+  padding: 20px;
+}
+
+.fragrance-desc {
+  font-size: 0.95rem;
+  color: #111;
+  margin: 0;
+  width: 500px;
+  text-align: center;
+  animation: fadeInUp 1.2s ease-in-out both;
+  animation-delay: 0.2s;
+}
+
+.icon-box p {
+  font-size: 0.95rem;
+  color: #111;
+  margin: 0;
+  width: 300px;
+  text-align: center;
+  animation: fadeInUp 1.4s ease-in-out both;
+}
+
+.leftimage {
+  width: 30vw;
+  height: 30vh;
+  padding: 2px;
+  object-fit: cover;
+  object-position: top center;
+  border-radius: 200px;
+  animation: fadeInUp 1s ease-in-out both;
+}
+
+.left-img {
+  left: 0;
+}
+.right-img {
+  right: 0;
+}
+
+.big-heading {
+  font-family: "BonVoyage";
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #111;
+  animation: fadeInUp 1s ease-in-out both;
+}
+
+.heading-img {
+  width: 200px;
+  height: 75px;
+  border-radius: 50px;
+  object-fit: cover;
+  margin: 0 10px;
+  animation: float 3s ease-in-out infinite;
+}
+
+.two-leftblock {
+  border: none;
+  border-right: 2px solid rgba(215, 213, 213, 0.729);
+}
+
+.icon-symbol {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #000;
+  animation: fadeInUp 1.6s ease-in-out both;
+}
+
+@media (max-width: 800px) {
+  .big-heading {
+    font-size: 1.5rem;
+  }
+
+  .leftimage {
+    width: 60vw;
+    height: 300px;
+    padding: 2px;
+    object-fit: cover;
+    object-position: top center;
+    border-radius: 200px;
+    animation: fadeInUp 1s ease-in-out both;
+  }
+
+  .fragrance-desc {
+    font-size: 0.95rem;
+    color: #111;
+    margin: 0 auto;
+    width: 90vw;
+    text-align: center;
+    animation: fadeInUp 1.2s ease-in-out both;
+  }
+
+  .icon-box p {
+    font-size: 0.95rem;
+    color: #111;
+    margin: 0 auto;
+    width: 90vw;
+    text-align: center;
+    /* animation: fadeInUp 1.4s ease-in-out both; */
+  }
+
+  .heading-img {
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    object-fit: cover;
+    object-position: bottom center;
+    margin: 0 10px;
+  }
+}
+
+/* aNImation */
+/* @keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+} */
