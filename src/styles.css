@@ -9,9 +9,16 @@
   .allborder {
     border: 3px solid black;
   }
+
+  body {
+    overflow-x: hidden;
+  }
 }
 
 /* SECTION 2 STYLING */
+body {
+  overflow-x: hidden;
+}
 
 .sectiontwo {
   border: 2px solid black;

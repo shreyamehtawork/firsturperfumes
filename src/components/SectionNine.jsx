@@ -26,7 +26,7 @@ function SectionNine() {
           >
             <h5 className="footer-title">Address</h5>
             <hr className="footer-line" />
-            <p>
+            <p className="footer-info">
               111/112, Burj Khalifa,
               <br />
               MH, India
@@ -43,12 +43,18 @@ function SectionNine() {
             <h5 className="footer-title">Telephone</h5>
             <hr className="footer-line" />
             <p>
-              <a href="tel:+123456789" className="footer-link text-white">
+              <a
+                href="tel:+123456789"
+                className="footer-link text-white footer-info"
+              >
                 +123456789
               </a>
               <br />
               <br />
-              <a href="tel:+123456789" className="footer-link text-white">
+              <a
+                href="tel:+123456789"
+                className="footer-link text-white footer-info"
+              >
                 +123456789
               </a>
             </p>
@@ -66,7 +72,7 @@ function SectionNine() {
             <p>
               <a
                 href="mailto:Info@Firstur.Com"
-                className="footer-link text-white"
+                className="footer-link text-white footer-info"
               >
                 Info@Firstur.Com
               </a>
@@ -74,7 +80,7 @@ function SectionNine() {
               <br />
               <a
                 href="mailto:Support@Firstur.Com"
-                className="footer-link text-white"
+                className="footer-link text-white footer-info"
               >
                 Support@Firstur.Com
               </a>
@@ -89,7 +95,7 @@ function SectionNine() {
             viewport={{ once: true }}
           >
             <h5 className="footer-title">Follow Us</h5>
-            <hr className="footer-line" />
+            <hr className="footer-line footer-info" />
             <p>
               Instagram
               <br />
@@ -115,8 +121,10 @@ function SectionNine() {
             Terms & Conditions
           </a>
           <p className="mb-1">Copyright © {year} Firstur</p>
-          <select className="mb-1">
-            <option disabled>Language</option>
+          <select className="mb-1 btn btn-outline-light btn-sm footer-info">
+            <option disabled selected>
+              Language
+            </option>
             <option>English</option>
             <option>Hindi</option>
             <option>German</option>

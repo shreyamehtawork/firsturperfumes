@@ -16,7 +16,7 @@ function SecondSection() {
         duration: 0.5,
         ease: "easeOut",
       }}
-      style={{ opacity: 1 }} 
+      style={{ opacity: 1 }}
     >
       <div className="row gy-5 align-items-center">
         <div className="col-lg-5 text-center two-leftblock">

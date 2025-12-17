@@ -18,7 +18,7 @@ function SectionFour() {
         onHoverStart={() => setIsHovered(true)}
         initial={{ opacity: 0, scale: 0.98 }}
         animate={isHovered ? { opacity: 1, scale: 1 } : {}}
-        transition={{ duration: 2, ease: "easeOut" }}
+        transition={{ duration: 1.5, ease: "easeOut" }}
       >
         <h2 className="mb-5" style={{ fontFamily: "BonVoyage" }}>
           A Truly Timeless Eau De Parfum Became <br />

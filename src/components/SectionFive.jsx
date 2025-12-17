@@ -13,7 +13,7 @@ function SectionFive() {
         className="container py-5"
         initial={{ opacity: 0, y: 30 }}
         animate={animateIn ? { opacity: 1, y: 0 } : {}}
-        transition={{ duration: 2, easing: "ease-in-out" }}
+        transition={{ duration: 1.5, easing: "ease-in-out" }}
         onHoverStart={() => setAnimateIn(true)}
       >
         <div className="text-center mb-5 section5heading">

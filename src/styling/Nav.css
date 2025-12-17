@@ -1,3 +1,19 @@
+/* Wrapper for sticky behavior */
+.nav-wrapper {
+  position: sticky;
+  top: 0;
+  z-index: 1050;
+  background: white;
+}
+
+/* Navbar base */
+.navbar {
+  /* padding-top: 6px; */
+  /* padding-bottom: 6px; */
+  border-bottom: 1px solid black;
+}
+
+/* Brand */
 .brandname {
   font-family: "BonVoyage", sans-serif;
   font-weight: bold;
@@ -6,17 +22,57 @@
   margin: 0;
 }
 
-.navbar {
-  margin-bottom: 0;
-  padding-top: 2px;
-  border-bottom: 1px solid black;
-}
-
+/* Nav links */
 .nav-item {
   font-weight: 500;
 }
 
+.nav-link {
+  color: black;
+  transition: opacity 0.2s ease;
+}
+
+.nav-link:hover {
+  opacity: 0.7;
+}
+
+/* Search */
+.search-wrapper {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+  padding-bottom: 2px;
+}
+
+.search-icon {
+  font-size: 14px;
+  margin-right: 4px;
+}
+
 .search {
   border: none;
+  outline: none;
   width: 70px;
+  font-size: 14px;
+}
+
+/* Cart */
+.cart-icon {
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.cart-icon:hover {
+  transform: scale(1.1);
+}
+
+/* Mobile fixes */
+@media (max-width: 992px) {
+  .brandname {
+    font-size: 32px;
+  }
+
+  .search {
+    width: 100px;
+  }
 }

@@ -10,7 +10,7 @@ function SectionTen() {
             Buy Popular colognes on <br></br> Sale at a discount
           </span>
           <span className="heading text-body-emphasis">
-            World Class Fragnance
+            World Class Fragrance
             <img src={image4} className="image4" alt="perfume" width="10px" />
           </span>
         </div>
